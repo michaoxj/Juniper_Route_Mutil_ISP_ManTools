@@ -21,3 +21,5 @@
 
 # 须知&免责
 * 路由控制属于危险操作，后续路由的增删改产生的问题与本软件无关。
+
+![PixPin_2025-05-06_11-35-53](https://github.com/user-attachments/assets/94bf9daf-ae32-43b9-866f-0987aa8874b3)
