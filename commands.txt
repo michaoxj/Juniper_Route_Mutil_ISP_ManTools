@@ -1,0 +1,23 @@
+
+show bgp summary |no-more
+show bgp summary |no-more | match "Active|Conn"
+show interfaces terse |no-more 
+ show interfaces descriptions |no-more 
+show configuration |display set |no-more 
+show configuration protocols bgp|display set |no-more  
+show configuration policy-options |display set |no-more 
+show configuration firewall |display set |no-more 
+show configuration routing-options |display set |no-more 
+show system alarms |no-more 
+show system uptime |no-more|match "Current|booted|started"
+show system storage |no-more
+show version |no-more 
+show chassis hardware|no-more 
+show chassis environment |no-more 
+show chassis routing-engine | match "status|slot|ate|mem|idle|uptime|-re" | no-more 
+show chassis fpc detail | match "lcc|slot|uptime|state" | no-more 
+show chassis fpc | match "temp|ate|online|-re" | no-more 
+show chassis fpc pic-status | except online | no-more
+show chassis power |no-more| match "PEM|state|input|output"
+show ospf neighbor instance all  | no-more 
+show ospf interface | no-more 
